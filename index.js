@@ -47,3 +47,16 @@ let swiper = new Swiper(".discover__container", {
   },
 })
 
+const buttonTerm = document.getElementById('pdf');
+const buttonTermExit = document.getElementById('termExit');
+
+buttonTerm.addEventListener("click", ()=> {
+
+    document.querySelector(".terminos").style.display ="block";
+
+})
+buttonTermExit.addEventListener("click", ()=> {
+
+    document.querySelector(".terminos").style.display ="none";
+
+})

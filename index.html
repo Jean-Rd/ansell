@@ -13,6 +13,8 @@
     <link rel="icon" type="image/png" href="assets/logo.jpg">
     <link rel="stylesheet" href="swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 </head>
 <body>
     
@@ -306,7 +308,7 @@
                     <div class="mb-3 form-check mx-auto terms">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Acepta nuestra politica de manejo de datos desarrolladas con la
-                             conformidad de la Ley Estatutoria 1581 de 2012
+                             conformidad de la Ley Estatutoria 1581 de 2012. <span id="pdf">Leer Términos y Condiciones</span>
                         </label>
                     </div>
                 </form>
@@ -637,8 +639,8 @@
                 <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png">
             </span>
             <form>
-                <input class="form-control input-login" type="email" name="email" placeholder="E-mail">
-                <input class="form-control input-login" type="password" name="pass" placeholder="Password">
+                <input class="form-control input-login" type="number" name="codigo" placeholder="Código">
+                <input class="form-control input-login" type="text" name="cedula" placeholder="Cédula">
                 <a class="a-login" href="#">Entrar</a>
                 <div id="remember-container">
                 
@@ -649,6 +651,11 @@
             </form>
         
         </div>
+    </div>
+
+    <div class="terminos">
+        <i id="termExit" class="far fa-times-circle"></i>
+        <iframe src="assets/TerminosCondiciones.pdf"></iframe>
     </div>
 
     
